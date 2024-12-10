@@ -31,7 +31,7 @@ External Services is a FastAPI-based project designed to handle file processing,
 
 ### Clone the repo
 ```
-git clone https://github.com/yourusername/external_services.git
+git clone https://github.com/lcsdovalle/payment-processor.git
 cd external_services
 ```
 
