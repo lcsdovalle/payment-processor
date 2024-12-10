@@ -63,6 +63,7 @@ poetry run pytest
 ### Next
 - ADD DLQ
 - ADD Loguru for logging
+- Integrade with S3 for files
 
 ### Licence
 This project is licensed under the MIT License.
