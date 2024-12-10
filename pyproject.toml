@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "payment-processor"
+version = "0.1.0"
+description = ""
+authors = ["lcsdovalle <contatolucasthomas@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+fastapi = "^0.115.6"
+uvicorn = "^0.32.1"
+pandas = "^2.2.3"
+pytest = "^8.3.4"
+pytest-asyncio = "^0.24.0"
+httpx = "^0.28.1"
+python-multipart = "^0.0.19"
+pydantic = {extras = ["email"], version = "^2.10.3"}
+jinja2 = "^3.1.4"
+black = "^24.10.0"
+flake8 = "^7.1.1"
+isort = "^5.13.2"
+pydantic-settings = "^2.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
