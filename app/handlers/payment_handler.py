@@ -33,7 +33,7 @@ class PaymentHandler(APIHandler):
         return content
 
     async def process_payment_task(self, row, mail_server: SMTPEmailEngine):
-        customer_debt = CustomerDebt(  # Lavaraging pydantic validation
+        customer_debt = CustomerDebt(
             customer_name=row.get("name"),
             debt_id=row.get("debtId"),
             email=row.get("email"),

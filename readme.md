@@ -60,5 +60,9 @@ curl --location 'http://127.0.0.1:8000/api/v1/payment/bulk/' \
 poetry run pytest
 ```
 
+### Next
+- ADD DLQ
+- ADD Loguru for logging
+
 ### Licence
 This project is licensed under the MIT License.
